@@ -8,6 +8,6 @@ def linear_search(items, key):
     """Returns index of first instance of found key.
     """
     for index, item in enumerate(items):
-        if items == key:
+        if item == key:
             return index
 
